@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'inter', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'inter', sans-serif;
+    font-weight: 600;
+    color: #222222;
+}
+#navbar {
+    padding: 12px;
+}
+
+#banner {
+    object-fit: cover;
+    width: 100%;
+}
+#about-header {
+    color: #222222;
+    text-align: center;
+}
+#about {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-right: 8px;
+}
+#description{
+    width: 50%;
+    padding: 0 8px;
+}
+#team {
+    width: 50%;
+}
+#team-image {
+    border-radius: 8px;
+    width: 100%;
+}
+
+h2 {
+text-align: center;
+color: #222222;
+}
+
+#jobs {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+.job-role {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.apply {
+    float: right;
+}
+.location {
+    color: gray;
+    margin-bottom: 16px;
+}
+a {
+    text-decoration: none;
+}
+#footer {
+    background-color: ghostwhite;
+    padding: 8px;
+    margin-top: 32px;
+    text-align: center;
+}
+#footer-links {
+    list-style: none;
+}
+#footer-links li {
+    display: inline;
+    margin: 0 16px;
+}
+.copyright {
+    color: gray;
+}
+
+#job-table {
+    width: 100%;
+    border: 1px solid #ebebeb;
+    border-collapse: collapse;
+}
+.row1 th {
+    border: 1px solid #ebebeb;
+    padding: 16px;
+    background-color: #f2f2f2;
+    text-align: left;
+}
+.row2 td {
+    border: 1px solid #ebebeb;
+    padding: 16px;
+}
+.row3 td {
+    border: 1px solid #ebebeb;
+    padding: 16px;
+}
+.row4 td {
+    border: 1px solid #ebebeb;
+    padding: 16px;
+}
+.row5 td {
+    border: 1px solid #ebebeb;
+    padding: 16px;
+}
+#job-table tr:nth-child(odd) {
+    background-color: aliceblue;
+}
+
+#application {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+#form-application {
+     font-weight: 400;
+     
+}
+#form-application input, select {
+    padding: 8px;
+    font-size: 1rem;
+    margin-top: 4px;
+    border-radius: 6px;
+    border-color: 1px solid gray;
+}
+#form-application textarea {
+    padding: 8px;
+    font-size: 1rem;
+    margin-top: 4px;
+    border-radius: 6px;
+    border-color: 1px solid gray;
+
+}
+.input-placeholder {
+    padding: 4px;
+    font-size: 1rem;
+    margin: 8px 0;
+   
+    
+}
+.input-placeholder textarea {
+    width: 80%;
+    font-family: 'inter',sans-serif;
+    height: 90px;
+}
+.input-placeholder input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+}
+.input-placeholder input[type="submit"] {
+    background-color: dodgerblue;
+    color: #f2f2f2;
+    font-weight: 500;
+    padding: 24px;
+    width: 20%;
+    cursor: pointer;
+}

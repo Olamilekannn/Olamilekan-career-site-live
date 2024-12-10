@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Web Page</title>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="navbar">
+        <h4 id="logo">
+            LOGO
+        </h4>
+    </div>
+    <img id="banner" src="Header Image.jpg" alt="banner" height="340">
+    <h1 id="about-header">About Johnson</h1>
+    <div id="about">
+        <div id="description">
+            <div style="margin-top: 0;">
+                I am Johnson a UI/UX Designer who is curious about making life easier for people through design. With several years of experience designing engaging and user-centric interfaces, I specialize in creating seamless, visually appealing digital experiences.
+            </div>
+            <p>Some highlights of my expertise include:
+                <ol>
+                    <li>Proficiency in wireframing, prototyping, and user testing.</li>
+                    <li>Expertise in tools like Figma, Sketch, and Adobe XD.</li>
+                </ol>
+            </p>
+        </div>
+        <div id="team">
+            <img id="team-image" src="Team.jpg" alt="team" >
+        </div>
+
+    </div>
+
+    <h2>Job Opportunities</h2>
+
+    <div id="jobs">
+        <div>
+            <a href="" class="apply">Apply</a>
+            <h3 class="job-role">UI/UX Designer</h3>
+            <div class="location">Lagos, Nigeria</div>
+        </div>
+        <div>
+            <a href="" class="apply">Apply</a>
+            <h3 class="job-role">Wordpress Developer</h3>
+            <div class="location">Lagos, Nigeria</div>
+        </div>
+        <div>
+            <a href="" class="apply">Apply</a>
+            <h3 class="job-role">Digital Marketer</h3>
+            <div class="location">Lagos, Nigeria</div>
+        </div>
+        <div>
+            <table id="job-table">
+                <tr class="row1">
+                   <th>Role</th>
+                   <th>Location</th>
+                   <th>Salary</th> 
+                   <th>Posted On</th>
+                </tr>
+                <tr class="row2">
+                    <td>Frontend Developer</td>
+                    <td>Lagos</td>
+                    <td>200,000</td>
+                    <td>Oct 7, 2024</td>
+                </tr>
+                <tr class="row3">
+                    <td>Full Stack Developer</td>
+                    <td>Abuja</td>
+                    <td>350,000</td>
+                    <td>Oct 7, 2024</td>  
+                </tr>
+                <tr class="row4">
+                    <td>Data Scientist</td>
+                    <td>Lagos</td>
+                    <td>350,000</td>
+                    <td>Oct 7, 2024</td>  
+                </tr>
+                <tr class="row5">
+                    <td>UI/UX Designer</td>
+                    <td>Remote</td>
+                    <td>150,000</td>
+                    <td>Oct 7, 2024</td>  
+                </tr>
+            </table>
+        </div>
+
+        <div id="application">
+            <h2>Submit your application</h2>
+            <form id="form-application" action="process-form.php" method="post">
+                <div class="input-placeholder">
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="full name" required placeholder="Johnson Harry">
+                </div>
+
+               <div class="input-placeholder">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email address" required placeholder="johnson@example.com">
+               </div>
+
+               <div class="input-placeholder">
+                <label for="postion applied for">Position applied for</label><br>
+                <select id="position" name="Position applied for" required>
+                    <option value="">Selected position</option>
+                    <option value="frontend developer">Frontend Developer</option>
+                    <option value="full stack developer">Full Stack Developer</option>
+                    <option value="data scientist">Data Scientist</option>
+                    <option value="ui/ux designer">UI/UX Designer</option>
+
+                </select>
+               </div>
+
+               <div class="input-placeholder">
+                <label for="resume">Upload Resume</label><br>
+                <input type="file" id="resume" name="resume" accept="pdf,.doc,.docx" required>
+               </div>
+
+               <div class="input-placeholder">
+                <label for="message">Message</label><br>
+                <textarea id="message" name="message" row="5"></textarea>
+               </div>
+
+               <div>
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    I agree to the terms and conditions
+                </label>
+               </div>
+
+               <div class="input-placeholder">
+                <input type="submit" value="Submit">
+               </div>
+
+            </form>
+
+        </div>
+
+    <div id="footer">
+        <ul id="footer-links">
+            <li>
+            <a href="https://www.linkedin.com/in/olamilekan-aribilola-58a192232/" target="blank"> 
+             Course
+            </a>
+            </li>
+            <li> 
+                <a href="https://www.linkedin.com/in/olamilekan-aribilola-58a192232/" target="blank">
+                Programs
+            </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/olamilekan-aribilola-58a192232/" target="blank">
+                Youtube   
+                </a>
+            </li>
+        </ul>
+        <span class="copyright">© 2024, Johnson</span>
+    </div>
+   
+</body>
+</html>
